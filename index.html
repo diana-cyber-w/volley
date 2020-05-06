@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Volleyball</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="smoke-pure.css">
+    <script type="text/javascript" src="smoke-pure.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-overlaps/1.2.3/jquery.overlaps.min.js"></script>
+</head>
+
+<body>
+    <div id="pong">
+        <img class="fizobl" id="fizobl" src="images/облако.png">
+        <img class="fizlico" id="fizlico" src="images/fz1.png">
+        <div class="fvoblake" id="fvoblake">
+            <p align="center">Вот ты и подошел к следующему</p>
+            <p align="center">испытанию. Оно будет не из легких,</p>
+            <p align="center">так что приготовься. Твоя</p>
+            <p align="center">цель - набрать 10 очков.</p>
+        </div>
+        <span id="our">0</span>
+        <p class="tochka">:</p>
+        <span id="notour">0</span>
+        <div id="player-padel" class="padel"><img class="player-padel" src="images/игр.png"></div>
+        <div id="ai-padel" class="padel"><img class="ai-padel" src="images/чел.png"></div>
+        <div id="ball"><img class="ball" src="images/мяч.png"></div>
+
+        <button onclick="style.display='none'; $('#fizlico').hide(); $('#fizobl').hide(); $('#fvoblake').hide();" id="start">Начать</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
